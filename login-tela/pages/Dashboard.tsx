@@ -1,11 +1,14 @@
-const Dashboard = () => {
-    return (
-      <div style={{ padding: 20 }}>
-        <h1>Dashboard</h1>
-        <p>Bem-vindo, Aderbal!</p>
-      </div>
-    );
-  };
-  
-  export default Dashboard;
-  
+import { Button } from "@react-navigation/elements";
+import { useNavigation } from "@react-navigation/native";
+import { View, TextInput, Text } from "react-native";
+
+
+export default function Dashboard() {
+    const navigation = useNavigation<any>();
+  return(
+    <View>
+      
+
+    </View>
+  );
+};
